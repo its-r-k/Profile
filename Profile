@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rajesh K. Pandey | Research Scholar</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:#f5f7fa;
+    color:#333;
+    line-height:1.6;
+}
+
+header{
+    background:linear-gradient(135deg,#1e3c72,#2a5298);
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}
+
+header h1{
+    font-size:3rem;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:1.1rem;
+    max-width:800px;
+    margin:auto;
+}
+
+.container{
+    width:90%;
+    max-width:1100px;
+    margin:auto;
+    padding:50px 0;
+}
+
+.section-title{
+    font-size:2rem;
+    color:#1e3c72;
+    margin-bottom:20px;
+    position:relative;
+}
+
+.section-title::after{
+    content:"";
+    width:60px;
+    height:4px;
+    background:#2a5298;
+    position:absolute;
+    left:0;
+    bottom:-8px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    margin-bottom:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
+
+.timeline-item{
+    margin-bottom:25px;
+}
+
+.timeline-item h3{
+    color:#2a5298;
+}
+
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    gap:12px;
+}
+
+.skill{
+    background:#2a5298;
+    color:white;
+    padding:10px 16px;
+    border-radius:30px;
+    font-size:0.95rem;
+}
+
+.contact{
+    text-align:center;
+}
+
+.contact a{
+    color:#2a5298;
+    text-decoration:none;
+    font-weight:600;
+}
+
+footer{
+    background:#1e3c72;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+
+@media(max-width:768px){
+    header h1{
+        font-size:2.2rem;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Rajesh K. Pandey</h1>
+    <p>
+        Doctoral Research Scholar in Psychology | Clinical Psychology Graduate |
+        Physics Lecturer | Researcher | Educator
+    </p>
+</header>
+
+<section class="container">
+    <h2 class="section-title">About Me</h2>
+
+    <div class="card">
+        <p>
+            I am a Doctoral Research Scholar in Psychology with a multidisciplinary
+            background in Clinical Psychology, Physics, and Education.
+            My academic journey combines scientific inquiry, teaching excellence,
+            and mental health research. I am passionate about psychological research,
+            education, and evidence-based practice.
+        </p>
+    </div>
+</section>
+
+<section class="container">
+    <h2 class="section-title">Experience</h2>
+
+    <div class="card timeline-item">
+        <h3>Doctoral Researcher</h3>
+        <p><strong>Amity University Gurgaon</strong></p>
+        <p>January 2025 – Present</p>
+    </div>
+
+    <div class="card timeline-item">
+        <h3>Clinical Psychology Intern</h3>
+        <p><strong>SSJB Hospital, Haldwani</strong></p>
+        <p>April 2023 – August 2023</p>
+    </div>
+
+    <div class="card timeline-item">
+        <h3>Lecturer in Physics</h3>
+        <p><strong>The Heritage School, Haldwani</strong></p>
+        <p>April 2022 – March 2023</p>
+        <p>
+            Taught Physics to Grades 11–12, conducted practical sessions,
+            developed lesson plans, evaluated examinations, and mentored students
+            for board and competitive exams.
+        </p>
+    </div>
+
+    <div class="card timeline-item">
+        <h3>Physics Teacher</h3>
+        <p><strong>Unacademy</strong></p>
+        <p>July 2020 – November 2021</p>
+    </div>
+</section>
+
+<section class="container">
+    <h2 class="section-title">Education</h2>
+
+    <div class="card">
+        <ul>
+            <li><strong>PhD in Psychology</strong> – Amity University Gurgaon (2025–Present)</li>
+            <li><strong>Master's in Clinical Psychology</strong> – IGNOU</li>
+            <li><strong>Master's in Physics</strong> – Uttarakhand Open University</li>
+            <li><strong>B.Ed. (Physical Sciences)</strong> – Kumaun University</li>
+            <li><strong>B.Sc. Physics</strong> – Kumaun University</li>
+        </ul>
+    </div>
+</section>
+
+<section class="container">
+    <h2 class="section-title">Skills</h2>
+
+    <div class="card">
+        <div class="skills">
+            <span class="skill">Clinical Psychology</span>
+            <span class="skill">Health Psychology</span>
+            <span class="skill">Mental Health Counseling</span>
+            <span class="skill">Research Methodology</span>
+            <span class="skill">Teaching & Training</span>
+            <span class="skill">Physics Education</span>
+            <span class="skill">Academic Writing</span>
+            <span class="skill">Psychological Assessment</span>
+        </div>
+    </div>
+</section>
+
+<section class="container">
+    <h2 class="section-title">Certifications</h2>
+
+    <div class="card">
+        <ul>
+            <li>GATE Psychology (2025)</li>
+            <li>CTET Qualified</li>
+            <li>UTET Qualified</li>
+        </ul>
+    </div>
+</section>
+
+<section class="container contact">
+    <h2 class="section-title">Contact</h2>
+
+    <div class="card">
+        <p>Email:</p>
+        <a href="mailto:rajesh.pandey1@s.amity.edu">
+            rajesh.pandey1@s.amity.edu
+        </a>
+
+        <br><br>
+
+        <p>LinkedIn:</p>
+        <a href="https://www.linkedin.com/in/rajesh-pandey-rp01" target="_blank">
+            View Profile
+        </a>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Rajesh K. Pandey | Research Scholar & Educator</p>
+</footer>
+
+</body>
+</html>
